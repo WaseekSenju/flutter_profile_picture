@@ -97,9 +97,7 @@ class NoImage extends StatelessWidget {
           ? randomColor()
           : name == ''
               ? ConstantColor.colorDefault
-              : fixedColor(
-                  InitialName.parseName(name, count),
-                ),
+              : Color(0xffEE1937),
       foregroundColor: Colors.white,
     );
   }
